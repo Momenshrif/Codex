@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeX</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                
+                    <li><a href="About.html">Home</a></li>
+                    <li><a href="Mentors.html">Mentors</a></li>
+                    <li><a href="Course.html">Our Bootcamps</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Mentors.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMmenu()"></i>
+        </nav>
+        <h1> About us </h1>
+    </section>
+
+
+<!---------- about us content ----------->
+    <section class="ubout-us">
+        <div class="row">
+            <div class="ubout-col">
+                <h1> my world </h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quidem. </p>
+                <a href="" class="hero-btn red-btn"> Read More </a>
+            </div>
+                <div class="ubout-col">
+                    <img src="about.jpg" >
+                </div>
+        </div>
+    </section>
+
+
+
+<!--------------Footer------------>
+<section class="footer">
+    <h4>CodeX</h4>
+    <p>28/1/2025 CodeX Creating.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made with ❤️ by CodeX</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMmenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
